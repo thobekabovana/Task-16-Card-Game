@@ -1,0 +1,7 @@
+- project
+  - views
+    - index.ejs
+    - partials
+      - header.ejs
+      - footer.ejs
+

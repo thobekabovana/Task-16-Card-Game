@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Card Guessing Game</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <h1>Card Guessing Game</h1>
+  <div id="timer">Time Left: 3:00</div> <!-- Timer Display -->
+  <div id="game-board" class="grid"></div>
+  <button onclick="resetGame()">Reset Game</button>
+  <div id="winning-message" class="hidden">🎉 Congratulations! You won! 🎉</div>
+  <div id="time-up-message" class="hidden">⏰ Time's up! Try again!</div>
+  <audio id="win-sound" src="/sounds/congratulations.mp3"></audio>
+  <script src="/js/game.js"></script>
+</body>
+</html>
